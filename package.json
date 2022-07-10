@@ -1,0 +1,19 @@
+{
+  "name": "natour",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/css/style.css -o src/css/style.prefix.css "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "parcel": "^2.6.2",
+    "postcss-cli": "^10.0.0"
+  }
+}
